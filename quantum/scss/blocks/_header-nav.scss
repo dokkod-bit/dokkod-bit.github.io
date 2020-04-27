@@ -1,0 +1,47 @@
+.header-nav {
+	height: 60px;
+	display: flex;
+	margin: 0 auto;
+	max-width: 1110px;
+	border-left: $border;
+	border-right: $border;
+}
+
+.header-nav__categories {
+	width: 200px;
+	border-right: $border;
+
+}
+
+.header-nav__deals {
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
+	height: 100%;
+	padding-left: 38px;
+	padding-right: 38px;
+	border-right: $border;
+}
+
+.header-nav__link {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1;
+	color: #808080;
+
+	&:not(:last-child) {
+		margin-right: 35px;
+	}
+}
+
+.header-nav__select {
+	display: flex;
+}
+
+.header-nav__select-item {
+	height: 100%;
+
+	&:not(:last-child) {
+		border-right: $border;
+	}
+}
