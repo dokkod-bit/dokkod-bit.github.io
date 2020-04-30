@@ -1,0 +1,44 @@
+.header {
+	width: 100%;
+
+	&-wrapper {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__logo {
+		display: flex;
+		align-items: center;
+
+		&-img {
+			margin-right: 11px;
+		}
+
+		&-text {
+			background: linear-gradient(to top, #00e0d0, #4aa3cc);
+			background-clip: text;
+			-webkit-background-clip: text;
+			color: transparent;
+			font-size: 30px;
+			font-weight: 100;
+		}
+	}
+
+	&__nav {
+		color: #fff;
+
+		&-item {
+			cursor: pointer;
+			font-size: 13px;
+			font-weight: 900;
+			letter-spacing: 0.33px;
+			text-transform: uppercase;
+
+			&:not(:last-child) {
+				margin-right: 15px;
+			}
+		}
+	}
+}

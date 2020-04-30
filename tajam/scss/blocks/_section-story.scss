@@ -1,0 +1,31 @@
+.section-story {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 70px 0;
+
+	&__img {
+		margin-right: 100px;
+
+	}
+
+	&__content {
+		width: 538px;
+		text-align: left;
+
+		&-text {
+			margin-top: 28px;
+			opacity: 0.75;
+			font-size: 14px;
+			font-weight: 300;
+			letter-spacing: 0.42px;
+			color: rgba(65, 61, 75, 0.75);
+
+			&-wrapper {
+				margin-bottom: 31px;
+			}
+		}
+	}
+
+
+}

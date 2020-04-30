@@ -1,0 +1,45 @@
+.section-works {
+	width: 100%;
+	padding-top: 70px;
+	padding-bottom: 70px;
+
+	&__header {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 61px;
+	}
+
+	&__nav {
+		display: flex;
+
+		&-item {
+			line-height: 1;
+			font-size: 14px;
+			font-weight: 300;
+			letter-spacing: 0.7px;
+			color: #413d4b;
+
+			&::after {
+				position: absolute;
+				right: 0;
+				top: 50%;
+				transform: translateY(-50%);
+				width: 8px;
+				height: 13px;
+				background-image: url('../img/icons/small-right-arrow.png');
+			}
+		}
+
+		&:not(:last-child) {
+			margin-right: 15px;
+		}
+	}
+
+	&__content {
+		text-align: center;
+	}
+
+	&__works {
+		margin-bottom: 70px;
+	}
+}

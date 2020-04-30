@@ -1,0 +1,22 @@
+.section-team {
+	width: 100%;
+	padding-top: 71px;
+	padding-bottom: 69px;
+	background-image: linear-gradient(to top, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.85)),
+		url('../img/bg/bg-3.png');
+	background-size: cover;
+
+	&__content {
+		text-align: center;
+		margin-top: 47px;
+	}
+
+	&__text {
+		margin-top: 70px;
+		margin-bottom: 26px;
+		font-size: 14px;
+		font-weight: 300;
+		letter-spacing: 0.7px;
+		color: #f3f3f3;
+	}
+}

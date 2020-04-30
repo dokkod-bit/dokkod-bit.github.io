@@ -1,0 +1,17 @@
+.section-comments {
+	text-align: center;
+	padding-top: 69px;
+	padding-bottom: 69px;
+	background-image: linear-gradient(to top, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.85)),
+		url('../img/bg/bg-4.png');
+	background-size: cover;
+
+	&__title {
+		font-family: PlayfairDisplay;
+		opacity: 0.9;
+		font-size: 100px;
+		letter-spacing: 3px;
+		line-height: 1;
+		color: #fff;
+	}
+}

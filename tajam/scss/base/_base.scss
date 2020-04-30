@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	transition: .2s;
+
+	&:visited {
+		color: inherit;
+	}
+
+	&:hover {
+		color: $active;
+	}
+
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.active {
+	color: $active;
+}
